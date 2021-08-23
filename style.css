@@ -1,0 +1,93 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+body{
+font-family: 'Balsamiq Sans', 'cursive';
+}
+
+.banner{
+    background-color:#CCCCCC;
+    margin: 0 auto;
+    padding: .5rem;
+    height: auto;
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#search{
+    width: 40%;
+    border: 2px solid black;
+}
+
+.banner button {
+    background-color: #2B78E4;
+    color: white;
+    border: 2px solid black;
+    padding: 2px;
+    min-width: 5em;
+    max-width: 5em;
+    font-family: 'Balsamiq Sans', 'cursive';
+    box-shadow: 2px 2px 2px black;
+}
+
+.main{
+    height: auto;
+    margin: 10px auto;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.ninja1, .ninja2{
+    width: 36%;
+}
+
+.desc1, .desc2 {
+    border: 3px solid black;
+    padding: 10px;
+    display: flex;
+}
+
+.desc2{
+    margin-top: 10px;
+}
+
+#btntop{
+    margin-top: 10px;
+    background-color: #FFD966 ;
+    border: 2px solid black;
+    padding: 5px;
+    font-weight: bold;
+    font-family: 'Balsamiq Sans', 'cursive';
+    box-shadow: 2px 2px 2px black;
+}
+
+span.test{
+margin-top: 25px;
+margin-left: 10px;
+}
+
+.definition{
+    border: 3px solid black;
+    width: 10em;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.definition button {
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: 10%;
+    background-color: #93C47D;
+    padding: 5px;
+    min-width: 10em;
+    max-width: 10em;
+    font-weight: bold;
+    font-family: 'Balsamiq Sans', 'cursive';
+    box-shadow: 2px 2px 2px black;
+}
